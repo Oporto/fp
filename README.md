@@ -5,7 +5,7 @@ soundcloudish.glitch.me
 ### The Team and Responsibilities
 Perdo de V Oporto - server and database
 Manas Mehta - styling, server and database, components & connections, visualizer, architecture
-Brandon Navarro - visualizer, comoponents
+Brandon Navarro - visualizer, components
 Joseph Caltabiano - components & connections, architecture
 
 ### The Project
@@ -20,7 +20,9 @@ We used a wide array of technologies and libraries for this project. Much of the
 
 For the server, we use Express along with helmet and compression. Passport was used for user auth. We used firebase for our database. __ **EXPLAIN MORE**
 
-The visualization was created using web audio api and dat.gui. **FILL IN**
+The visualization was created using web audio api and dat.gui. The visualization is constructed by capturing the frequency data of the song and using those frequencies to manipulate how the rectangles are drawn onto the canvas. The frequency data of the song is read and the visualization updated by continually requesting a new animation frame. You are also able to change various aspects of the visualizer such as the height & length of each bar or the color.
+
+
 
 ### Challenges
 The main challenge we faced was the loss of a group member. They realized they would be NR'ing the course so decided to spend their time during the last week on other work. With a student short, we were stretched to complete our original goals, especially because that student had been partly responsible for the visualizer aspect, the heart of our project. As a result we were not able to create a polished product to the specifications we originally aimed for. We had to cut some features, for example providing a preloaded list of mp3s instead of letting the user upload a song from their computer. Some features were still not able to be finished completely, such as the visualizer and some styling. 
