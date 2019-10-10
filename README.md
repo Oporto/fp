@@ -22,6 +22,7 @@ For the server, we use Express along with helmet and compression. Passport was u
 
 The visualization was created using web audio api and dat.gui. The visualization is constructed by capturing the frequency data of the song and using those frequencies to manipulate how the rectangles are drawn onto the canvas. The frequency data of the song is read and the visualization updated by continually requesting a new animation frame. You are also able to change various aspects of the visualizer such as the height & length of each bar or the color.
 
+We also wanted to include the option of uploading a threejs visualizer, however due to time constraints and lack of manpower, we were not able to get it integrated into the app. The threejs visualizer was built (and works) and would allow users to create a visualization of a bunch of shapes in 3D space that would rotate and change their color intensity to based on the frequency data of the song.
 
 
 ### Challenges
